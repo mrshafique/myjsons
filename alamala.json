@@ -31,13 +31,13 @@
         "id": "5",
         "name": "Cleaning",
         "image": "https://happsa.com.au/wp-content/uploads/2020/06/Unknown-1-thegem-post-thumb-large.jpeg",
-        "status": 3
+        "status": 2
       },
       {
         "id": "2",
         "name": "Makeup",
         "image": "https://www.stylist.co.uk/images/app/uploads/2019/07/18114802/best-makeup-bags-organisation-256x256.jpg",
-        "status": 2
+        "status": 3
       }
     ]
   }
