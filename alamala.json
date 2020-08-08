@@ -1,4 +1,40 @@
 {
-  "appName":"Alamala",
-  "version":10
+  "slider": [
+    "https://marketplace.canva.com/EADi-0huuh0/1/0/1600w/canva-green-and-pink-stripes-artists-%26-illustrators-influencer-maximalism-facebook-cover-qsKWRtNnvTA.jpg",
+    "https://marketplace.canva.com/EADjFXJb9Bc/1/0/1600w/canva-red-and-blue-photo-fashion-influencer-facebook-cover-C4AGQje5b-E.jpg",
+    "https://marketplace.canva.com/EADZ4GxN7Ek/3/0/1600w/canva-yellow-circles-fashion-sale-advertisement-cover-GbjoUsd3JrA.jpg",
+    "https://marketplace.canva.com/EADZ4F1EFqU/2/0/1600w/canva-turquoise-photo-fall-%26-winter-theme-facebook-cover-cRc98U6-rkA.jpg"
+  ],
+  "mainCat": [
+    {
+      "id": "1",
+      "name": "Hair Cutting",
+      "image": "https://jamielyncintron.com/wp-content/uploads/2018/01/JLC-Services-Full-Service-Salon.jpg",
+      "status": 1
+    },
+    {
+      "id": "3",
+      "name": "Plumber",
+      "image": "https://oldbayplumbingservices.com/wp-content/uploads/2019/05/sink-and-faucet.jpg",
+      "status": 1
+    },
+    {
+      "id": "4",
+      "name": "House Painting",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQsvzPWbtTGxX0JuAGXdahrem0AscftMCPddw&usqp=CAU",
+      "status": 1
+    },
+    {
+      "id": "5",
+      "name": "Cleaning",
+      "image": "https://happsa.com.au/wp-content/uploads/2020/06/Unknown-1-thegem-post-thumb-large.jpeg",
+      "status": 3
+    },
+    {
+      "id": "2",
+      "name": "Makeup",
+      "image": "https://www.stylist.co.uk/images/app/uploads/2019/07/18114802/best-makeup-bags-organisation-256x256.jpg",
+      "status": 2
+    }
+  ]
 }
