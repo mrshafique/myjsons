@@ -6,134 +6,399 @@
       "description": "Classic wood-fired pizza with fresh mozzarella, basil, and tomatoes.",
       "price": 8.99,
       "category": "Pizza",
-      "availability": true,
-      "image_url": "https://example.com/images/margherita_pizza.jpg"
+      "availability": true
     },
     {
       "id": "002",
-      "name": "Spaghetti Carbonara",
-      "description": "Creamy spaghetti tossed with pancetta, egg, and Parmesan.",
-      "price": 10.50,
-      "category": "Pasta",
-      "availability": true,
-      "image_url": "https://example.com/images/carbonara.jpg"
+      "name": "Pepperoni Pizza",
+      "description": "Topped with spicy pepperoni, mozzarella, and tomato sauce.",
+      "price": 9.49,
+      "category": "Pizza",
+      "availability": true
     },
     {
       "id": "003",
-      "name": "Chicken Tikka Masala",
-      "description": "Grilled chicken in spiced tomato and cream sauce served with rice.",
-      "price": 11.00,
-      "category": "Indian",
-      "availability": true,
-      "image_url": "https://example.com/images/tikka_masala.jpg"
+      "name": "Paneer Tikka Pizza",
+      "description": "Indian twist with marinated paneer, bell peppers, and spicy sauce.",
+      "price": 10.99,
+      "category": "Pizza",
+      "availability": true
     },
     {
       "id": "004",
-      "name": "Caesar Salad",
-      "description": "Crisp romaine lettuce, Parmesan, and croutons with Caesar dressing.",
-      "price": 6.75,
-      "category": "Salads",
-      "availability": true,
-      "image_url": "https://example.com/images/caesar_salad.jpg"
+      "name": "BBQ Chicken Pizza",
+      "description": "Smoky BBQ sauce, grilled chicken, and onions.",
+      "price": 11.99,
+      "category": "Pizza",
+      "availability": true
     },
     {
       "id": "005",
-      "name": "Veggie Burger",
-      "description": "Grilled veggie patty with lettuce, tomato, and avocado on a toasted bun.",
-      "price": 9.25,
-      "category": "Burgers",
-      "availability": true,
-      "image_url": "https://example.com/images/veggie_burger.jpg"
+      "name": "Veggie Supreme Pizza",
+      "description": "Loaded with mushrooms, olives, capsicum, and onions.",
+      "price": 9.99,
+      "category": "Pizza",
+      "availability": true
     },
     {
       "id": "006",
-      "name": "Sushi Platter",
-      "description": "Assorted nigiri and rolls served with soy sauce and wasabi.",
-      "price": 14.00,
-      "category": "Japanese",
-      "availability": true,
-      "image_url": "https://example.com/images/sushi_platter.jpg"
+      "name": "Classic Cheeseburger",
+      "description": "Juicy beef patty with cheddar, lettuce, and tomato.",
+      "price": 7.99,
+      "category": "Burger",
+      "availability": true
     },
     {
       "id": "007",
-      "name": "Butter Naan",
-      "description": "Soft Indian flatbread brushed with butter, perfect with curries.",
-      "price": 2.99,
-      "category": "Indian",
-      "availability": true,
-      "image_url": "https://example.com/images/butter_naan.jpg"
+      "name": "Spicy Chicken Burger",
+      "description": "Fried chicken, spicy mayo, and lettuce.",
+      "price": 8.49,
+      "category": "Burger",
+      "availability": true
     },
     {
       "id": "008",
-      "name": "Grilled Salmon",
-      "description": "Tender salmon fillet grilled to perfection with lemon-dill sauce.",
-      "price": 13.50,
-      "category": "Seafood",
-      "availability": true,
-      "image_url": "https://example.com/images/grilled_salmon.jpg"
+      "name": "Veg Burger",
+      "description": "Grilled veggie patty with lettuce, onions, and special sauce.",
+      "price": 6.99,
+      "category": "Burger",
+      "availability": true
     },
     {
       "id": "009",
-      "name": "Pad Thai",
-      "description": "Stir-fried rice noodles with tofu, peanuts, egg, and tamarind sauce.",
-      "price": 9.75,
-      "category": "Thai",
-      "availability": true,
-      "image_url": "https://example.com/images/pad_thai.jpg"
+      "name": "Paneer Burger",
+      "description": "Crispy paneer patty, onions, and tangy sauce.",
+      "price": 7.49,
+      "category": "Burger",
+      "availability": true
     },
     {
       "id": "010",
-      "name": "Beef Tacos",
-      "description": "Three corn tortillas filled with seasoned beef, lettuce, and cheese.",
-      "price": 8.25,
-      "category": "Mexican",
-      "availability": true,
-      "image_url": "https://example.com/images/beef_tacos.jpg"
+      "name": "Double Cheeseburger",
+      "description": "Two beef patties, double cheddar, pickles, and onions.",
+      "price": 9.49,
+      "category": "Burger",
+      "availability": true
     },
     {
       "id": "011",
-      "name": "Falafel Wrap",
-      "description": "Chickpea falafel with tahini sauce and fresh veggies in pita bread.",
-      "price": 7.95,
-      "category": "Middle Eastern",
-      "availability": true,
-      "image_url": "https://example.com/images/falafel_wrap.jpg"
+      "name": "Club Sandwich",
+      "description": "Triple-layer sandwich with chicken, bacon, lettuce, and mayo.",
+      "price": 7.99,
+      "category": "Sandwich",
+      "availability": true
     },
     {
       "id": "012",
-      "name": "French Fries",
-      "description": "Crispy golden fries served with ketchup or aioli.",
-      "price": 3.50,
-      "category": "Sides",
-      "availability": true,
-      "image_url": "https://example.com/images/french_fries.jpg"
+      "name": "Grilled Cheese Sandwich",
+      "description": "Melted cheese in toasted bread with butter.",
+      "price": 4.99,
+      "category": "Sandwich",
+      "availability": true
     },
     {
       "id": "013",
-      "name": "Greek Yogurt Parfait",
-      "description": "Layers of yogurt, granola, and berries served in a glass.",
-      "price": 4.99,
-      "category": "Desserts",
-      "availability": true,
-      "image_url": "https://example.com/images/parfait.jpg"
+      "name": "Paneer Tikka Sandwich",
+      "description": "Grilled sandwich with spicy paneer filling.",
+      "price": 6.99,
+      "category": "Sandwich",
+      "availability": true
     },
     {
       "id": "014",
-      "name": "Lemon Iced Tea",
-      "description": "Refreshing chilled tea with a splash of lemon.",
-      "price": 2.50,
-      "category": "Beverages",
-      "availability": true,
-      "image_url": "https://example.com/images/lemon_iced_tea.jpg"
+      "name": "Veggie Delight Sandwich",
+      "description": "Loaded with fresh vegetables and hummus.",
+      "price": 5.99,
+      "category": "Sandwich",
+      "availability": true
     },
     {
       "id": "015",
-      "name": "Mango Lassi",
-      "description": "Creamy Indian yogurt drink blended with ripe mangoes.",
-      "price": 3.75,
+      "name": "Chicken Mayo Sandwich",
+      "description": "Creamy chicken filling with crispy veggies.",
+      "price": 6.99,
+      "category": "Sandwich",
+      "availability": true
+    },
+    {
+      "id": "016",
+      "name": "French Fries",
+      "description": "Crispy golden potato fries with seasoning.",
+      "price": 3.99,
+      "category": "Sides",
+      "availability": true
+    },
+    {
+      "id": "017",
+      "name": "Onion Rings",
+      "description": "Crispy battered onion rings served with dip.",
+      "price": 4.49,
+      "category": "Sides",
+      "availability": true
+    },
+    {
+      "id": "018",
+      "name": "Garlic Bread",
+      "description": "Toasted bread with garlic butter and herbs.",
+      "price": 4.99,
+      "category": "Sides",
+      "availability": true
+    },
+    {
+      "id": "019",
+      "name": "Cheesy Nachos",
+      "description": "Corn chips smothered with melted cheese and jalapenos.",
+      "price": 5.49,
+      "category": "Sides",
+      "availability": true
+    },
+    {
+      "id": "020",
+      "name": "Masala Fries",
+      "description": "Spicy twist to classic fries with Indian masala.",
+      "price": 4.99,
+      "category": "Sides",
+      "availability": true
+    },
+    {
+      "id": "021",
+      "name": "Cold Coffee",
+      "description": "Chilled coffee with cream and sugar.",
+      "price": 3.99,
       "category": "Beverages",
-      "availability": true,
-      "image_url": "https://example.com/images/mango_lassi.jpg"
+      "availability": true
+    },
+    {
+      "id": "022",
+      "name": "Fresh Lime Soda",
+      "description": "Sparkling lime soda, sweet or salty.",
+      "price": 2.99,
+      "category": "Beverages",
+      "availability": true
+    },
+    {
+      "id": "023",
+      "name": "Iced Tea",
+      "description": "Refreshing chilled tea with lemon flavor.",
+      "price": 3.49,
+      "category": "Beverages",
+      "availability": true
+    },
+    {
+      "id": "024",
+      "name": "Milkshake - Chocolate",
+      "description": "Thick and creamy chocolate milkshake.",
+      "price": 4.99,
+      "category": "Beverages",
+      "availability": true
+    },
+    {
+      "id": "025",
+      "name": "Milkshake - Strawberry",
+      "description": "Sweet strawberry shake with whipped cream.",
+      "price": 4.99,
+      "category": "Beverages",
+      "availability": true
+    },
+    {
+      "id": "026",
+      "name": "Soft Drink - Cola",
+      "description": "Carbonated soft drink, chilled.",
+      "price": 1.99,
+      "category": "Beverages",
+      "availability": true
+    },
+    {
+      "id": "027",
+      "name": "Mango Smoothie",
+      "description": "Smooth mango blend with yogurt.",
+      "price": 5.49,
+      "category": "Beverages",
+      "availability": true
+    },
+    {
+      "id": "028",
+      "name": "Lassi - Sweet",
+      "description": "Sweetened yogurt drink, chilled.",
+      "price": 3.49,
+      "category": "Beverages",
+      "availability": true
+    },
+    {
+      "id": "029",
+      "name": "Lassi - Salted",
+      "description": "Savory yogurt drink with salt and spices.",
+      "price": 3.49,
+      "category": "Beverages",
+      "availability": true
+    },
+    {
+      "id": "030",
+      "name": "Chocolate Brownie",
+      "description": "Rich and fudgy chocolate brownie.",
+      "price": 3.99,
+      "category": "Desserts",
+      "availability": true
+    },
+    {
+      "id": "031",
+      "name": "Gulab Jamun",
+      "description": "Sweet Indian dumplings soaked in syrup.",
+      "price": 2.99,
+      "category": "Desserts",
+      "availability": true
+    },
+    {
+      "id": "032",
+      "name": "Ice Cream - Vanilla",
+      "description": "Classic vanilla ice cream scoop.",
+      "price": 2.99,
+      "category": "Desserts",
+      "availability": true
+    },
+    {
+      "id": "033",
+      "name": "Ice Cream - Chocolate",
+      "description": "Smooth chocolate ice cream.",
+      "price": 2.99,
+      "category": "Desserts",
+      "availability": true
+    },
+    {
+      "id": "034",
+      "name": "Rasmalai",
+      "description": "Soft paneer dumplings in creamy milk.",
+      "price": 3.49,
+      "category": "Desserts",
+      "availability": true
+    },
+    {
+      "id": "035",
+      "name": "Tiramisu",
+      "description": "Italian dessert with coffee-soaked ladyfingers.",
+      "price": 5.99,
+      "category": "Desserts",
+      "availability": true
+    },
+    {
+      "id": "036",
+      "name": "Fruit Salad",
+      "description": "Seasonal fruits with honey dressing.",
+      "price": 3.99,
+      "category": "Desserts",
+      "availability": true
+    },
+    {
+      "id": "037",
+      "name": "Choco Lava Cake",
+      "description": "Molten chocolate-filled cake.",
+      "price": 4.49,
+      "category": "Desserts",
+      "availability": true
+    },
+    {
+      "id": "038",
+      "name": "Dal Makhani",
+      "description": "Creamy lentils cooked with butter and spices.",
+      "price": 7.99,
+      "category": "Indian",
+      "availability": true
+    },
+    {
+      "id": "039",
+      "name": "Butter Chicken",
+      "description": "Tender chicken in rich tomato butter gravy.",
+      "price": 9.99,
+      "category": "Indian",
+      "availability": true
+    },
+    {
+      "id": "040",
+      "name": "Paneer Butter Masala",
+      "description": "Paneer cubes in buttery tomato sauce.",
+      "price": 8.49,
+      "category": "Indian",
+      "availability": true
+    },
+    {
+      "id": "041",
+      "name": "Veg Biryani",
+      "description": "Flavored rice with vegetables and spices.",
+      "price": 7.49,
+      "category": "Indian",
+      "availability": true
+    },
+    {
+      "id": "042",
+      "name": "Chicken Biryani",
+      "description": "Fragrant rice cooked with marinated chicken.",
+      "price": 9.49,
+      "category": "Indian",
+      "availability": true
+    },
+    {
+      "id": "043",
+      "name": "Naan",
+      "description": "Leavened soft bread with butter.",
+      "price": 1.99,
+      "category": "Indian",
+      "availability": true
+    },
+    {
+      "id": "044",
+      "name": "Tandoori Roti",
+      "description": "Whole wheat flatbread from clay oven.",
+      "price": 1.49,
+      "category": "Indian",
+      "availability": true
+    },
+    {
+      "id": "045",
+      "name": "Chole Bhature",
+      "description": "Spicy chickpeas with fluffy fried bread.",
+      "price": 6.99,
+      "category": "Indian",
+      "availability": true
+    },
+    {
+      "id": "046",
+      "name": "Samosa",
+      "description": "Crispy pastry stuffed with spiced potato.",
+      "price": 1.99,
+      "category": "Snacks",
+      "availability": true
+    },
+    {
+      "id": "047",
+      "name": "Pav Bhaji",
+      "description": "Spicy mashed veggies with buttered bread rolls.",
+      "price": 5.99,
+      "category": "Snacks",
+      "availability": true
+    },
+    {
+      "id": "048",
+      "name": "Vada Pav",
+      "description": "Mumbai-style potato fritter sandwich.",
+      "price": 3.49,
+      "category": "Snacks",
+      "availability": true
+    },
+    {
+      "id": "049",
+      "name": "Corn Cheese Balls",
+      "description": "Fried balls stuffed with cheese and corn.",
+      "price": 4.99,
+      "category": "Snacks",
+      "availability": true
+    },
+    {
+      "id": "050",
+      "name": "Spring Rolls",
+      "description": "Crispy rolls with veggie filling.",
+      "price": 5.49,
+      "category": "Snacks",
+      "availability": true
     }
   ]
 }
